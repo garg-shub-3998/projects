@@ -1,0 +1,4 @@
+miniflipkart\signup\SignUpServlet.class
+miniflipkart\home\HomeServlet.class
+miniflipkart\login\LogInServlet.class
+miniflipkart\brand\ListBrand.class
