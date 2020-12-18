@@ -1,0 +1,26 @@
+#player1 {
+	padding-left: 10%;
+	padding-right: 10%;
+	float: left;
+	width: 13%;
+}
+#player2 {
+	padding-left: 10%;
+	padding-right: 10%;
+	float: left;
+	width: 14%;
+}
+
+#player3 {
+	padding-left: 10%;
+	padding-right: 10%;
+	float: right;
+	width: 13%;
+}
+
+.fourth img {
+	height: 100%;
+	padding-right: 10%;
+	padding-left: 10%;
+}
+

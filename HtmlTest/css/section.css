@@ -1,0 +1,40 @@
+* {
+    margin: 0; padding: 0;
+}
+html, body, #container {
+    height: 100%;
+    overflow: hidden;
+}
+main {
+    height: 100%;
+    background: green;
+}
+.first {
+    height: 10%;
+    background-color: #f03d30;
+    font-size: 0px;
+}
+.first table {
+  display: inline-block;
+  font-size: 25px;
+  height: 100%;
+  float: right;
+  border: 1px solid black;
+  text-align: center;
+}
+.second {
+    height: 20%;
+    background-color: #6df0f2;
+}
+.third {
+    width: 100%;
+    height: 40%;
+    background-color: #77d10a;
+    cursor: pointer;
+}
+.fourth {
+    height: 30%;
+    background-color: #e4f00a;
+}
+
+

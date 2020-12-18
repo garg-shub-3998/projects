@@ -1,0 +1,11 @@
+#ball{
+	text-align: center;
+}
+
+#football {
+	padding-top: 10%;
+	position: relative;
+	width: 6%;
+	transition: left .5s ease-in, top .5s ease-in, right .5s ease-in, bottom .5s ease-in;
+
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Football Page</title>
+	<link rel="stylesheet" type="text/css" href="css/section.css">
+	<link rel="stylesheet" type="text/css" href="css/goalpost.css">
+	<link rel="stylesheet" type="text/css" href="css/player.css">
+	<link rel="stylesheet" type="text/css" href="css/ball.css">
+	<script type="text/javascript" src="js/ball.js"></script>
+	<script type="text/javascript" src="js/player.js"></script>
+<!-- 	<script type="text/javascript" src="js/moveball.js"></script>   -->
+</head>
+<body >
+
+	<div id="container">
+	<header></header>
+	<main>
+		<section class="first">
+			
+			<table onclick="Player3()">
+				<tr>
+					<td id = "name3">Player3</td>
+				</tr>
+				<tr>
+					<td id="p3"></td>
+				</tr>
+			</table>
+			<table onclick="Player2()">
+				<tr>
+					<td id = "name2">Player2</td>
+				</tr>
+				<tr>
+					<td id="p2"></td>
+				</tr>
+			</table>
+			<table onclick="Player1()">
+				<tr>
+					<td id = "name1">Player1</td>
+				</tr>
+				<tr>
+					<td id="p1"></td>
+				</tr>
+			</table>
+
+		</section>
+
+		<section class="second">
+			
+				<img id="goalpost" src="image/goalpost.jpg" onclick="Goal()">
+			
+		</section>
+
+		<section class="third" id="ground">
+			<div id="ball">
+				<img id="football" src="image/football.jpg" onclick="Enlarge()" >
+			</div>
+		</section>
+
+		<section class="fourth">
+
+			<div id="player1">
+				<img id="player11" src="image/player1.jpg" ondblclick="NameChange1()">
+			</div>
+			<div id="player2">
+				<img id="player22" src="image/player2.jpg" ondblclick="NameChange2()">				
+			</div>
+			<div id="player3">
+				<img id="player33" src="image/player3.jpg" ondblclick="NameChange3()">				
+			</div>
+
+		</section>
+
+	</main>
+    </div>
+
+</body>
+</html>
